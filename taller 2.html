@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKBOX</title>
+    <link rel="stylesheet" href="./css/factura.css">
+</head>
+<body>
+    <center>
+        <h1>LENGUAJES DE PROGRAMACION</h1>
+        <h2>SELECCIONE LOS PROGRAMACION A ESTUDIAR</h2>
+        <br><br>
+        <form action="">
+            <table>
+                <tr><th>Nombre</th><td><input type="text" size="20"></td></tr>
+                <tr><th colspan="4">LENGUAJES PROGRAMACION</th></tr>
+                <tr><td colspan="4"><input type="checkbox" name="" id="len01">JAVASCRIPT</td></tr>
+                <tr><td colspan="4"><input type="checkbox" name="" id="len02">PYTHON</td></tr>
+                <tr><td colspan="4"><input type="checkbox" name="" id="len03">PHP</td></tr>
+                <tr><td colspan="4"><input type="checkbox" name="" id="len04">C#</td></tr>
+                <tr><td ><input type="button" value="MOSTRAR" onclick="mostrar()"></td><td colspan="4"><input type="button" value="BORRAR" onclick="borrar()"></td></tr>
+                <tr><th>Lenguajes de Programacion seleccionados:</th><td><input type="text" id="resp" size="40"></td></tr>
+            </table>
+        </form>
+    </center>
+<script src="./js/checbox.js"></script>
+</body>
+</html>
